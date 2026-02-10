@@ -6,7 +6,9 @@ public class Calculator {
                 return arg1 + arg2;
                 
             case "MINUS":
-                return arg1 - arg2;      
+                return arg1 - arg2;
+            case "MULTIPLY":
+                return arg1 * arg2;   
             default:
                 System.out.println("Toán tử không hợp lệ: " + sign);
                 return 0;
